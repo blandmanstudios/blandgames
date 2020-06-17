@@ -11,7 +11,7 @@ import copy
 import uuid
 import pymongo
 
-db_prefix = '/var/www/TeddyPoCards/'
+db_prefix = '/var/www/BlandGames/'
 myclient = pymongo.MongoClient(app.config["MONGOSTRING"])
 mydb = myclient["dev_db"]
 
